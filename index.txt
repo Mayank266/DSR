@@ -1,0 +1,73 @@
+Subject: Daily Status Report For 52 March 2022
+From: Dikshant Mali
+Content-Type: text/html; charset="utf8"
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My DSR</title>
+    <style>
+        #mydsr {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #mydsr td, #mydsr th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+   
+  #mydsr tr:hover {background-color: #ddd;}
+  
+  #mydsr th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+    </style>
+</head>
+
+<body>
+    
+    <h2 style="color: greenyellow;">Hello Deepak,</h2>
+    Please find the daily status report for <span style="color:salmon;">21 march 2022.</span>
+    <br><br>
+
+<table id="mydsr">
+    <tr>
+      <th>Task Description</th>
+      <th>Status</th>
+      <th>Completion(%)</th>
+    </tr>
+    <tr>
+      <td>Deployed python flask web application to EC2 using Nginx reverse proxy</td>
+      <td>Done</td>
+      <td>100%</td>
+    </tr>
+    <tr>
+      <td>Installed Mongodb on my ubuntu system and did changed 
+      the default dbpath and run simple commands like show dbs, use db etc.</td>
+      <td>Done</td>
+      <td>100%</td>
+    </tr>
+    <tr>
+      <td>Configured ipbind in mongod.conf file. Working fine with 0.0.0.0(for all ip) but 
+      failing for specific public ip</td>
+      <td>Done</td>
+      <td>100%</td>
+    </tr>
+    
+  </table>
+    <br><br>
+    Thanks And Regards<br>
+    Dikshant Mali<br>
+    APS-31149<br>
+</body>
+</html>
